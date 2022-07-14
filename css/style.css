@@ -598,6 +598,25 @@ body {
    height: 100vh;
    background: url(/img/intro_bg.jpg) no-repeat center;
    background-size: cover;
+   padding-top: 263px;
+}
+
+.intro_title {
+   max-width: 619px;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 60px;
+   color: #ffffff;
+   margin-bottom: 22px;
+}
+
+.intro_subtitle {
+   max-width: 546px;
+   color: #ffffff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 59px;
 }
 
 /* Intro styles start */
