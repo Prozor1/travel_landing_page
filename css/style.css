@@ -799,8 +799,17 @@ img {
    margin-bottom: 36px;
 }
 
-.places_title {
-  
+
+.places_view_all {
+   padding-right: 59px;
+   font-size: 16px;
+   color: #006DFE;
+   text-decoration: none;
+   background: url(../img/svg/arrow-right-icon.svg) no-repeat right center;
+}
+
+.places_view_all:hover, .places_view_all:focus {
+   opacity: .65;
 }
 
 /* Places styles end */
