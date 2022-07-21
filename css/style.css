@@ -818,4 +818,21 @@ img {
 	opacity: .65;
 }
 
+
+.places_cards{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 10px;
+}
+
+.places_card_size_lg{
+   grid-column: span 3; 
+}
+
+.places_card-pic{
+   height: 354px;
+   object-fit: cover;
+}
+
+
 /* Places styles end */
