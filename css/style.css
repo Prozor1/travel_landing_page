@@ -952,6 +952,11 @@ img {
 	margin-bottom: 77px;
 }
 
+
+.tour_info{
+   padding-left: 47px;
+}
+
 .tour_title {
 	font-weight: 500;
 	font-size: 30px;
@@ -979,6 +984,40 @@ img {
 	opacity: .65;
 }
 
-
-
 /* Tours styles end */
+
+
+/* Top place start */
+
+
+.top{
+   margin-bottom: 86px;
+}
+
+.top_title{
+   margin-bottom: 64px;
+}
+
+.top_cards{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 58px;
+}
+
+
+.top_card-pic{
+   position: relative;
+}
+
+.top_card-stats{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background: rgba(21, 24, 36, 0.6);
+
+}
+
+
+
+/* Top place end */
