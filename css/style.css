@@ -987,7 +987,7 @@ img {
 .tours_tour {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   grid-gap: 0 108px;
+   grid-column-gap: 108px;
    align-items: center;
    margin-bottom: 77px;
 }
@@ -1046,7 +1046,7 @@ img {
 .top_cards {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-gap: 57px;
+   grid-column-gap: 57px;
 }
 
 
@@ -1220,6 +1220,14 @@ img {
 
 @media screen and (max-width: 960px) {
 
+   .benefits{
+      margin-bottom: 75px;
+   }
+
+   .benefits_card{
+      margin-bottom: 60px; 
+   }
+
 	.search-form_feild{
 		margin-bottom: 25px;
 	}
@@ -1230,7 +1238,7 @@ img {
 	}
 
 	.benefits_card{
-		padding: 15px;
+		padding-top: 15px;
 	}
 
 	.benefits_title{
@@ -1240,6 +1248,14 @@ img {
 	.benefits_wrap{
 		box-shadow: none;
 	}
+
+   .places_card_size_lg{
+      grid-column: span 6;
+   }
+
+   .places_card_size_sm{
+      grid-column: span 6;
+   }
 	
 }
  
