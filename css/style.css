@@ -1236,6 +1236,10 @@ img {
 	.benefits_title{
 		padding: 55px 15px;
 	}
+
+	.benefits_wrap{
+		box-shadow: none;
+	}
 	
 }
  
