@@ -1381,11 +1381,11 @@ img {
 		transform: translateY(-50%) rotate(-45deg);
 	}
 
-<<<<<<< HEAD
+
    .benefits_card{
       grid-column: span 3;
    }
-=======
+
 	.intro {
 		padding-top: 125px;
 	}
@@ -1524,7 +1524,7 @@ img {
 		padding: 90px 30px;
 
 	}
->>>>>>> f8036d5a8ebb08477107c0aa945f40a7a417eb77
+
 
 
 
